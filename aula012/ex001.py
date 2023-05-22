@@ -1,9 +1,11 @@
 def funcao1 (x:int):
     if x % 2 == 0:
-        print(True)
+        return True
     else:
-        print(False)
-    return
+        return False
+    
 
-funcao1(10)
-funcao1(1)
+numero = int(input("Digite um número: "))
+resultado = funcao1(numero)
+
+print(f"{numero} é par??? -> {funcao1(numero)}")
