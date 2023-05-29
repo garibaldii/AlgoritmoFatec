@@ -14,6 +14,7 @@ while True:
         media = soma / 5
         
         for s in range(1):
+            print("...")
             sleep(1)
             print("Calculando as médias")
             sleep(2)
